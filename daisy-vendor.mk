@@ -214,6 +214,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
+	vendor/xiaomi/daisy/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+	vendor/xiaomi/daisy/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
+	vendor/xiaomi/daisy/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+	vendor/xiaomi/daisy/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/xiaomi/daisy/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
+    vendor/xiaomi/daisy/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/xiaomi/daisy/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/xiaomi/daisy/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+	vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
+	vendor/xiaomi/daisy/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+	vendor/xiaomi/daisy/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/xiaomi/daisy/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/xiaomi/daisy/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so:system/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.0.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.xiaomi.hardware.mlipay@1.1.so:system/lib64/vendor.xiaomi.hardware.mlipay@1.1.so \
@@ -231,6 +248,8 @@ PRODUCT_PACKAGES += \
     uceShimService \
     CNEService \
     WfdService \
+	QPerformance \
+    UxPerformance \
     com.qualcomm.location \
     dpmserviceapp \
     ims \
